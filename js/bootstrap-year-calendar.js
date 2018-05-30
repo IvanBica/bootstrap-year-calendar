@@ -633,7 +633,7 @@
 					monthContainerClass += ' col-xs-12';
 				}
 				
-				$(_this.element).find('.month-container').attr('class', monthContainerClass);
+				$(_this.element).find('.month-container').addClass(monthContainerClass);
 			}, 300);
 		},
 		_refreshRange: function () {
